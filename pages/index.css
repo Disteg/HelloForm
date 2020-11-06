@@ -178,7 +178,7 @@ html {
 }
 
 .rotation {
-    animation: upDown 4s ease 0s infinite;
+    animation: upDown 4s ease-in-out 0s infinite;
 }
 
 @keyframes upDown {
@@ -186,18 +186,10 @@ html {
         padding-top: 0;
     }
 
-    25% {
-        padding-top: 25px;
-    }
-
-
     50% {
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
-    75% {
-        padding-top: 25px;
-    }
     100% {
         padding-top: 0px;
     }

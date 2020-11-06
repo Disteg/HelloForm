@@ -133,6 +133,14 @@ html {
     }
 }
 
+@media (max-width: 420px) {
+    .Illustation {
+        width: 320px;
+        height: 320px;
+       
+    }
+}
+
 
 
 .welcome {

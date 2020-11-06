@@ -11,7 +11,7 @@
         <div class="header__logo">Hello Form</div>
            <div class="header__button">
             <p class="header__button_name">Log out</p>
-            <button type="" class="header__button_button"></button>
+            <button type="submit" class="header__button_button"></button>
             
           </div>
     </header>
@@ -21,12 +21,25 @@
             <h2 class="welcomeOne">Welcome In ..Hello Form..</h2>
             <h3 class="welcomeTwo">Please, click on button</h3>
         </div>
-        <img class="Illustation" src="./image/Illustration.png" alt="Иллюстрация">
+        <div><img class="Illustation rotation" src="./image/Illustration.png" alt="Иллюстрация"></div>
     </section>
     
+<section class="popup">
+    <div class="popup__conteiner">
+        <h2 class="popup__name">Login</h2>
+        <form class="popup__form">
+            <input class="input__popup input__log" type="text" placeholder="Login" minlength="1" maxlength="40">
+            <span></span>
+            <input class="input__popup input__passw" type="text" placeholder="Password" maxlength="16" minlength="8">
+            <span></span>
+            <button class="btnPopup" type="submit">Let's go</button>
+        </form>
+     </div>
+   
 
+</section>
 
-    
+ <script src="./script/api.js"></script>   
 </body>
 
 </html>

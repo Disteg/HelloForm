@@ -231,6 +231,22 @@ right: 0;
     }
 }
 
+.popup__close {
+    position: absolute;
+    background: transparent;
+    border: none;
+    background-image: url('../image/mdi-light_plus.png');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    right: 10px;
+    top: 10px;
+}
+
 .popup__name {
     padding-bottom: 30px;
 }

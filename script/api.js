@@ -10,6 +10,9 @@ function colorbutton(){
     ButtonOut.classList.toggle('color_btn')
 }
     
+function closePopup(popup){
+popup.classList.remove('popup_open')
+}
 
 
 

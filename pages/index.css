@@ -163,6 +163,7 @@ html {
 
 .welcome {
     padding-top: 20%;
+    padding-right: 20%;
     display: block;
     font-family: 'SFProDisplay';
     text-align: center;
@@ -171,6 +172,7 @@ html {
 @media (max-width: 700px) {
     .welcome {
     padding-top: 10%;
+    padding-right: 0%;
     display: block;
     font-family: 'SFProDisplay';
     text-align: center;

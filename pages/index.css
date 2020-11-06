@@ -5,13 +5,15 @@ html {
     font-family: 'SFProDisplay';
     
     background: linear-gradient(to left, #0052d4, #4364f7, #6fb1fc); 
+    overflow:hidden;
+    overflow-y:hidden;  
+    overflow-x:hidden;
 }
 
 .page {
     margin: 0 auto;
     max-width: 1177px;
-    height: 720px;
-    
+    min-height: 898px;
 }
 
 
@@ -304,4 +306,42 @@ right: 0;
 
 .popup_open {
     display: flex;
+}
+
+
+/*footer*/
+.footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 46px;
+    
+}
+
+@media (max-width: 700px) {
+    .footer {
+        height: 23px;
+       
+    }
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+}
+
+.ps {
+    font-family: 'SFProDisplay';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media (max-width: 700px) {
+    .ps {
+        margin: 0;
+        padding-top: 1%;
+        font-size: 10px;
+       
+    }
 }

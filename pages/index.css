@@ -35,6 +35,13 @@ html {
     
 }
 
+@media (max-width: 700px) {
+    .header__logo {
+        font-size: 18px;
+       
+    }
+}
+
 .header__button {
     display: flex;
     width: 100px;
@@ -70,11 +77,11 @@ html {
 
 /*Section forch*/
 .allContent {
-    display: flex;
+    display: block;
     min-height: auto;
     overflow: hidden;
-    justify-content: space-between;
-    margin-top: 160px;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .Illustation {
@@ -82,13 +89,21 @@ html {
     min-height: 535px;
 }
 
+@media (max-width: 700px) {
+    .Illustation {
+        width: 314px;
+        height: 235px;
+       
+    }
+}
+
 
 
 .welcome {
-    padding-top: 20%;
+    padding-top: 10%;
     display: block;
     font-family: 'SFProDisplay';
-    
+    text-align: center;
 }
 
 .welcomeOne {
@@ -96,10 +111,24 @@ html {
     font-size: 36px;
 }
 
+@media (max-width: 700px) {
+    .welcomeOne {
+        font-size: 24px;
+       
+    }
+}
+
 .welcomeTwo {
     color: white;
     font-size: 24px;
     text-align: center;
+}
+
+@media (max-width: 700px) {
+    .welcomeTwo {
+        font-size: 18px;
+       
+    }
 }
 
 .rotation {
@@ -135,6 +164,16 @@ right: 0;
  align-items: center;
 }
 
+@media (max-width: 700px) {
+    .popup {
+    left: 0px;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+       
+    }
+}
+
 
 .popup__conteiner {
     max-width: 530px;
@@ -150,9 +189,24 @@ right: 0;
     opacity: 1;
 }
 
+@media (max-width: 700px) {
+    .popup__conteiner {
+   display: block;
+       
+    }
+}
+
 .popup__name {
     padding-bottom: 30px;
 }
+
+@media (max-width: 700px) {
+    .popup__name {
+        padding-bottom: 10px;
+       
+    }
+}
+
 
 .btnPopup {
     margin-top: 50px;
@@ -178,9 +232,21 @@ right: 0;
     border-bottom: 1px solid #4364F7;
 }
 
+
+
+
 .input__passw {
     margin-left: 30px;
 }
+
+@media (max-width: 700px) {
+    .input__passw {
+        margin-top: 30px;
+        margin-left: 0px;
+       
+    }
+}
+
 
 .popup_open {
     display: flex;

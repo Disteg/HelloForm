@@ -1,4 +1,98 @@
 @import url('../vendor/normalize.css');
-@import url("../blocks/page/page.css");
-@import url('../blocks/button/button.css');
-@import url('../blocks/form/__section/form__section.css');
+@import url('../vendor/fonts.css');
+
+html {
+    font-family: 'SFProDisplay';
+    
+    background: linear-gradient(to left, #0052d4, #4364f7, #6fb1fc); 
+}
+
+.page {
+    margin: 0 auto;
+    width: 1177px;
+    height: 720px;
+    
+}
+
+
+/*Header*/
+
+.header__content {
+    justify-content: space-between;
+    align-items: center;
+    width: 1177px;
+    height: 42px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.header__logo {
+    color: white;
+    font-family: 'SFProDisplay';
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 10px;
+    
+}
+
+.header__button {
+    display: flex;
+    width: 100px;
+
+}
+
+.header__button_name {
+    color: white;
+    font-family: 'SFProDisplay';
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.header__button_button {
+    background: transparent;
+    border: none;
+    background-image: url('../image/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    padding-right: 40px;
+}
+
+/*Section forch*/
+.allContent {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 260px;
+}
+
+.Illustation {
+    width: 514px;
+    height: 535px;
+}
+
+
+
+.welcome {
+    display: block;
+    font-family: 'SFProDisplay';
+    
+}
+
+.welcomeOne {
+    color: white;
+    font-size: 36px;
+}
+
+.welcomeTwo {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+

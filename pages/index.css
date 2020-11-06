@@ -3,7 +3,6 @@
 
 html {
     font-family: 'SFProDisplay';
-    
     background: linear-gradient(to left, #0052d4, #4364f7, #6fb1fc); 
     overflow:hidden;
     overflow-y:hidden;  
@@ -11,6 +10,7 @@ html {
 }
 
 .page {
+    width: 100%;
     margin: 0 auto;
     max-width: 1177px;
     min-height: 898px;
